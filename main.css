@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    padding: 118px;
+    padding-bottom: 76px;
+}
+.container{
+    max-width: 1240px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.header_nav{
+    display: flex;
+    justify-content: space-between;
+}
+.header_list{
+    display: flex;
+    list-style: none;
+    gap: 53px;
+}
+.header_link{
+    color: rgb(0, 0,0);
+    font-family: "Roboto Mono";
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 42px;
+    text-decoration: none;
+    text-shadow: 0px 7px 4px ;
+}
+.hero{
+    padding-bottom: 118px;
+    background-image: url(./images/Vector.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left bottom;
+}
+.hero_wrapper{
+    display: flex;
+    align-items: start;
+}
+.hero_box{
+    display: flex;
+    flex-wrap: wrap;
+    /*margin-left:57px; */
+}
+.hero_child{
+    width: 133px;
+    height: 133px;
+    margin-left: 83px;
+    margin-bottom: 42px;
+    border-radius: 5px;
+    box-shadow: 0px 8px 24px 0px rgb(47,198,60);
+    background-color: rgb(255,255,255);
+}
